@@ -6,7 +6,7 @@ int main() {
 
 	std::vector<int> prime_array;
 
-	for (int i{ 2 }; i > 100; i++) {
+	for (int i{ 0 }; i < 100; i++) {
 		if ((i % 2) == 0) {
 			printf("Number %d is not prime\n", i);
 		}
@@ -24,7 +24,7 @@ int main() {
 
 	printf("Prime Numbers are: ");
 	for (auto it : prime_array) {
-		printf("%d",it);
+		printf("%d\n",it);
 	}
 
 
