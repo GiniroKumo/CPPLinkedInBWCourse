@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\Ex_Files_C_Plus_Plus_EssT\Exercise Files\Chap03\cards - working.cpp">
+    <ClCompile Include="prime.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
