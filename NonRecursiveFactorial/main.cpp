@@ -6,8 +6,11 @@ unsigned long int factorial(const unsigned long int number) {
 	}
 	unsigned long int total{ 0 };
 	const unsigned long int final_loop{ 2 };
-	for (unsigned long int i = number; i == final_loop; i--) {
-		total += (i * (i - (unsigned long int)1));
+	for (unsigned long int i = number; i != 1; i--) {
+		if (total == 0) {
+			total = (i * (i - 1));
+		}
+		else (total *= (i-1));
 	}
 
 	return(total);
