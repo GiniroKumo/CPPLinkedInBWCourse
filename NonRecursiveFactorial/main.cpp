@@ -5,7 +5,7 @@ unsigned long int factorial(const unsigned long int number) {
 		return{ 0 };
 	}
 	unsigned long int total{ 0 };
-	unsigned long int final_loop{ 2 };
+	const unsigned long int final_loop{ 2 };
 	for (unsigned long int i = number; i == final_loop; i--) {
 		total += (i * (i - (unsigned long int)1));
 	}
